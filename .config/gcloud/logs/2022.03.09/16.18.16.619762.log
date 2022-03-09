@@ -1,0 +1,35 @@
+2022-03-09 16:18:16,637 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2022-03-09 16:18:16,639 DEBUG    root            Running [gcloud.init] with arguments: []
+2022-03-09 16:18:16,639 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2022-03-09 16:18:16,641 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2022-03-09 16:18:16,641 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2022-03-09 16:18:16,642 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2022-03-09 16:18:16,642 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2022-03-09 16:18:16,643 INFO     ___FILE_ONLY___ Checking network connection...
+2022-03-09 16:18:17,549 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): accounts.google.com:443
+2022-03-09 16:18:17,581 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET / HTTP/1.1" 302 338
+2022-03-09 16:18:17,643 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /ServiceLogin?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F HTTP/1.1" 200 None
+2022-03-09 16:18:17,667 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-03-09 16:18:18,203 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1beta1/projects HTTP/1.1" 401 None
+2022-03-09 16:18:18,205 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): www.googleapis.com:443
+2022-03-09 16:18:18,230 DEBUG    urllib3.connectionpool https://www.googleapis.com:443 "GET /auth/cloud-platform HTTP/1.1" 200 14
+2022-03-09 16:18:18,235 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2022-03-09 16:18:18,264 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 180433
+2022-03-09 16:18:18,456 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2022-03-09 16:18:18,457 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2022-03-09 16:20:53,819 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+
